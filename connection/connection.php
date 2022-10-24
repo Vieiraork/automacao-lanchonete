@@ -1,13 +1,14 @@
 <?php
-namespace connection;
 
-class Connection {
+
+class DbConnection {
     public function stablishDBConnection() {
         try {
-            $conn = new mysqli(
+            $conn = mysqli_connect(
                 'localhost',
                 'root',
-                ''
+                '',
+                'lanchonete'
             );
 
             return $conn;
