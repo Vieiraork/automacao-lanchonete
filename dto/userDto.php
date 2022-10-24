@@ -1,0 +1,7 @@
+<?php
+
+class UserDto {
+    // TODO - ACRESCENTAR OS ATRIBUTOS PARA O OBJETO DE TRANSFERÊNCIA
+}
+
+?>
