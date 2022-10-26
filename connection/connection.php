@@ -13,7 +13,7 @@ class DbConnection {
 
             return $conn;
         } catch (\Throwable $th) {
-            echo $th->getMessage();
+            throw $th;
         }
     }
 }
