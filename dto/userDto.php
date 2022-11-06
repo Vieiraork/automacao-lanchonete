@@ -3,6 +3,7 @@
 class UserDto {
     private $id_usuario;
     private $no_usuario;
+    private $email;
     private $senha;
     private $dt_registro;
     private $dt_alteracao;
@@ -21,6 +22,14 @@ class UserDto {
 
     public function setNoUsuario($no_usuario) {
         $this->no_usuario = $no_usuario;
+    }
+
+    public function getEmail() {
+        return $this->email;
+    }
+
+    public function setEmail($email) {
+        $this->email = $email;
     }
 
     public function getSenha() {
