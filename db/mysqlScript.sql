@@ -1,6 +1,7 @@
 CREATE TABLE usuario (
 	`id_usuario` INT AUTO_INCREMENT,
     `no_usuario` VARCHAR(50),
+    `email` VARCHAR(80),
     `senha` VARCHAR(255),
     `dt_registro` DATE,
     `dt_alteracao` DATE,
